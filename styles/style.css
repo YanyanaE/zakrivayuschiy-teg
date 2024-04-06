@@ -50,6 +50,7 @@
   font-weight: 400;
   line-height: 65px;
   text-transform: uppercase;
+  outline: none;
 }
 
 .header__title {
@@ -218,17 +219,17 @@
   transform: scaleX(1);
 }
 
-.button:focus {
+.button:focus-visible {
   outline: none;
   box-shadow: 2px 2px 0 var(--accent-color);
 }
 
 .card__icon-button:focus-visible {
-  border-color:  var(--accent-color);
+  border-color: var(--accent-color);
   transition: border-color 0.3s ease;
 }
 
-.card__icon-button:focus {
+.card__icon-button:focus-visible {
   outline: none;
 }
 

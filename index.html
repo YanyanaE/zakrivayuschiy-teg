@@ -17,7 +17,7 @@
   </head>
   <body class="page">
     <header class="content header">
-      <div class="header__logo">&lt;/HTML&gt;</div>
+      <a class="header__logo">&lt;/HTML&gt;</a>
       <h1 class="header__title">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
@@ -49,12 +49,12 @@
       <section class="cards">
         <article class="card__item">
           <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
-          <img src="./images/car.png" class="card__image" alt="" />
+          <img src="./images/car.png" class="card__image" alt="Пиксельный фургон с едой" />
           <div class="card__content">
             <p class="card__paragraph">Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И, возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
             <p class="card__paragraph">Место для ваших воспоминаний о начале обучения.</p>
             <div class="card__buttons">
-              <button class="card__icon-button" type="button" aria-hidden="true">
+              <button class="card__icon-button" type="button" aria-hidden="true" aria-label="Like">
                 <svg
                 class="like-icon" 
                 width="39" 
@@ -97,15 +97,15 @@
           </div>
         </article>
       </section>
+      <section class="footer">
+        <button class="footer__floppy-button button" type="button">
+          <svg class="floppy-icon" aria-hidden="true">
+            <use xlink:href="./svg/floppy.svg#floppy" />
+          </svg>
+          <span class="button__text">Сохранить&nbsp;на&nbsp;память</span>
+        </button>
+      </section>
     </main>
-    <footer class="content footer">
-      <button class="footer__floppy-button button" type="button">
-        <svg class="floppy-icon" aria-hidden="true">
-          <use xlink:href="./svg/floppy.svg#floppy" />
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
-    </footer>
     <script src="./scripts/set-theme.js"></script>
     <script src="./scripts/like.js"></script>
   </body>
