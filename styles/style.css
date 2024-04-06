@@ -227,9 +227,6 @@
 .card__icon-button:focus-visible {
   border-color: var(--accent-color);
   transition: border-color 0.3s ease;
-}
-
-.card__icon-button:focus-visible {
   outline: none;
 }
 
