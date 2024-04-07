@@ -67,7 +67,7 @@
 }
 
 .is-liked .heart {
-  animation-name: heart;
+  animation-name: scaleIn;
   animation-delay: 0.1s;
   animation-duration: 0.3s;
   animation-timing-function: ease-in;
@@ -77,7 +77,7 @@
 }
 
 .is-liked .sparks {
-  animation-name: sparks;
+  animation-name: opacityIn;
   animation-delay: 0.3s;
   animation-duration: 0.3s;
   animation-timing-function: ease-in;
@@ -86,7 +86,7 @@
   transform-origin: center;
 }
 
-@keyframes pointer {
+@keyframes inlinePulse {
   0% {
     inset-inline-start: -20px;
   }
@@ -95,7 +95,7 @@
   }
 }
 
-@keyframes heart {
+@keyframes scaleIn {
   0% {
     transform: scale(1);
   }
@@ -107,7 +107,7 @@
   }
 }
 
-@keyframes sparks {
+@keyframes opacityIn {
   0% {
     opacity: 0;
   }
